@@ -19,13 +19,15 @@ Pending direct links
 - KoF hitbox guy
 - GWED training dev mode
 
-## Resources
+## Resources/References
 
-- https://forum.speeddemosarchive.com/post/contra_3_hitbox_viewer.html
-- https://dammit.typepad.com/blog/2010/09/animated-hitbox-data.html
-- https://pastebin.com/K7XH9w0F
+- [Contra III Hitbox Viewer Forum Post](https://forum.speeddemosarchive.com/post/contra_3_hitbox_viewer.html)
+- [Contra III Hitbox Viewer](https://pastebin.com/K7XH9w0F)
+- [Hitbox Data Article](https://dammit.typepad.com/blog/2010/09/animated-hitbox-data.html)
 - [Lua Functions](http://tasvideos.org/Bizhawk/LuaFunctions.html)
+- [Metal Hitboxes Reference](https://github.com/OmnigamerSDA/Game-Research/blob/master/Metal%20Warriors/metalhitboxes_biz.lua)
 
 ## Contribution
 
-Pending
+Please read CONTRIBUTE.md
+
