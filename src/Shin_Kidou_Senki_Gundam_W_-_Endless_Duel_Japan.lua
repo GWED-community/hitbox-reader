@@ -1,11 +1,11 @@
 memory.usememorydomain("WRAM")
 
 local function hpdisplay()
-	local HP1 = mainmemory.read_s16_le(0x1B71)
-	local HP2 = mainmemory.read_u8(0x1B75)
+	local HP1 = mainmemory.read_s16_le(0x1B70)
+	local HP2 = mainmemory.read_s16_le(0x1B74)
 	
-	gui.text( 40,  100, HP1 .. "/ 28784") 
-	gui.text( 420, 100, HP2 .. "/ 112") 
+	gui.pixelText( 15,  32, HP1 .. "/28927", 0xFF808080, 0x00000000) 
+	gui.pixelText( 143, 32, HP2 .. "/28927", 0xFF808080, 0x00000000) 
 
 end
 local function player()
