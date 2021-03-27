@@ -9,7 +9,7 @@ Everything according to frame data and hit boxes.
 Pending
 ## Credits
 
-Pending direct links
+Pending direct links & proper credit mentions
 
 - Survivor
 - ComboKyo
