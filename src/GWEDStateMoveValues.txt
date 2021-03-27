@@ -1,0 +1,51 @@
+001201	b	u	0	WRAM	1P Movetype Flag 
+001205	b	u	0	WRAM	2P Movetype Flag
+
+000 Neutral
+001 Hitstun after pause and projectile launching state
+002 Invul for everything but grabs
+003 Knockdown (invul to everything)
+00 
+008 Dead (Laying down)
+010 Dead (Bounce)
+014 Dead (Hitpause)
+015 Dead (Air juggle)
+016 Mercurius Barrier invul
+017 
+018 Invul + Mercurius Barrier invul
+019 
+064 Vulcans
+080 Mercurius Barrier + Vulcans
+
+
+
+
+001200	b	u	0	WRAM	1P State Type 26 stand block contact, 27 jump block contact, 28 cr block contact)
+001204	b	u	0	WRAM	2P State Type (128 stand attack, 129 jump attack, 130 crouch attack)
+
+000 Stand
+001 Jump
+002 Crouch
+003 
+004 Dash
+005 Backdash (air)
+006 
+007 
+008 Stand Block
+009 Jump Block
+010 Crouch Block
+011 
+012 Ground Block Dash
+013 Back Blockdash (air)
+014 
+015 
+016 
+017 
+018 
+019 
+026 Stand Block (hitstun)
+027 Jump Block (hitstun)
+028 Crouch Block (hitstun)
+128 
+129 
+130
