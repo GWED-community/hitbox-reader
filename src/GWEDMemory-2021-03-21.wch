@@ -23,11 +23,11 @@ SystemID SNES
 001181	w	s	0	WRAM	P1 Pos Y
 001185	w	s	0	WRAM	P2 Pos Y
 001282	w	s	0	WRAM	
-001B01	b	u	0	WRAM	P1 Flags - Command Direction (0 for right, 64 for left)
-001B05	b	u	0	WRAM	P2 Flags - Command Direction (0 for right, 64 for left)
+001B01	b	b	0	WRAM	P1 Flags - 7th byte Command Side, 6th and 5th byte "grabbing"
+001B05	b	b	0	WRAM	P2 Flags - Command Direction (0 for right, 64 for left)
 001B4A	b	u	0	WRAM	P1 Block Range
 001B4B	b	h	0	WRAM	P1 MoveHit Total
-001200	b	u	0	WRAM	P1 state type
+001200	b	b	0	WRAM	P1 state type: value 8 is attack. value 4 is block. value 3 is dash. value 2 is crouch. value 1 is jump
 001B4E	b	h	0	WRAM	P2 Block Range
 001295	w	s	0	WRAM	P1 Crosshairs Start
 001310	b	u	0	WRAM	
@@ -54,10 +54,10 @@ SystemID SNES
 001605	b	s	0	WRAM	P2 Attack ??
 001606	b	u	0	WRAM	P2 Damage
 001607	b	u	0	WRAM	P2 Hit Sound
-001383	b	u	0	WRAM	P1 Flags 7th bit is facing (0 = left, 1 = right) (48 is left, 112 is right) Surv
-001387	b	u	0	WRAM	P2 Flags 7th bit is facing (0 = left, 1 = right) (52 is left, 116 is right) Surv
-00138B	b	u	0	WRAM	P1 Turning - Surv
-00138F	b	u	0	WRAM	P2 Turning - Surv
+001383	b	b	0	WRAM	P1 Flags 7th bit is facing (0 = left, 1 = right) . 6th bit invis. 5th? 4thInvis+shadow 3rdPlayer palette 2ndInvertPalette 1st?
+001387	b	b	0	WRAM	P2 Flags 7th bit is facing (0 = left, 1 = right) (52 is left, 116 is right) Surv
+00138B	b	b	0	WRAM	P1 Turning - Surv
+00138F	b	b	0	WRAM	P2 Turning - Surv
 000620	w	s	0	WRAM	Camera X
 000622	w	s	0	WRAM	Camera Y
 001101	b	u	0	WRAM	P1 Pos X (2-byte)
@@ -225,4 +225,11 @@ SystemID SNES
 0011AD	w	s	0	WRAM	2P Vulcan2 Y Pos
 0011B5	w	s	0	WRAM	2P Vulcan3 Y Pos
 0011BD	w	s	0	WRAM	2P Vulcan4 Y Pos
+001640	b	u	0	WRAM	1P Proj1 knockback
+001641	b	b	0	WRAM	1P Proj1 hitflags
+001642	b	u	0	WRAM	1P Projectile damage
+001643	b	u	0	WRAM	P1 Proj1 Hit Sounds. Bit 1 = Damage scaling.
+013C	b	h	0	CGRAM	Vulcan Reticle flicker 1
+013D	b	h	0	CGRAM	
+00014C	b	u	0	WRAM	Punch up high for darkness!
 
