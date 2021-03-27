@@ -11,13 +11,12 @@ Pending
 
 Pending direct links & proper credit mentions
 
-- Survivor
-- ComboKyo
-- Eric
-- tobe
-- Zool
+- [Survivor](https://twitter.com/endless_duel)
+- [ComboKyo](https://github.com/ComboKyo)
+- Eric#8830 (Discord)
+- tobemorecrazy#4941 (Discord)
+- Zool#8679 (Discord) 
 - KoF hitbox guy
-- GWED training dev mode
 
 ## Resources/References
 
