@@ -2,7 +2,7 @@
 
 ## About
 
-Everything according to frame data and hit boxes. 
+Everything according to frame data and hit boxes for the game, Gundam Wing Endless Duel. 
 
 ## How to use this
 
@@ -16,7 +16,7 @@ Pending direct links & proper credit mentions
 - Eric#8830 (Discord)
 - tobemorecrazy#4941 (Discord)
 - Zool#8679 (Discord) 
-- KoF hitbox guy
+- [Madman](https://twitter.com/Amedo310)
 
 ## Resources/References
 
