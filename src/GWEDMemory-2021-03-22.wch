@@ -1,0 +1,270 @@
+SystemID SNES
+0000F2	b	u	0	WRAM	HP P1 - Possible float for rest of HP
+001B70	d	2	0	WRAM	HP P1
+001602	b	u	0	WRAM	P1 Damage
+001B72	b	u	0	WRAM	HP P1 - gradual bar movement
+001B78	b	u	0	WRAM	HP P1 - gradual bar movement
+001B74	d	2	0	WRAM	HP P2
+001B7C	b	u	0	WRAM	HP P2 - gradual bar movement
+001BB4	b	u	0	WRAM	HP P2 - possible float for rest of HP
+000E8C	b	u	0	WRAM	P1 Crosshairs
+000E8F	b	u	0	WRAM	P2 Crosshairs
+001080	b	u	0	WRAM	
+001500	b	u	0	WRAM	P1 State Number
+001504	b	u	0	WRAM	P2 State Number
+001B28	b	u	0	WRAM	P1 Attack State
+001400	b	s	0	WRAM	
+001A14	b	h	0	WRAM	P2 Crosshair X
+001281	b	s	0	WRAM	P1 Vel X (Negative 255 down, Positive 0-127)
+001283	b	s	0	WRAM	P1 Vel Y
+001101	w	s	0	WRAM	P1 Pos X
+001105	w	s	0	WRAM	P2 Pos X
+001181	w	s	0	WRAM	P1 Pos Y
+001185	w	s	0	WRAM	P2 Pos Y
+001282	w	s	0	WRAM	
+001B01	b	b	0	WRAM	P1 Flags - 7th byte Command Side, 6th and 5th byte "grabbing"
+001B05	b	b	0	WRAM	P2 Flags - Command Direction (0 for right, 64 for left)
+001B4A	b	u	0	WRAM	P1 Block Range
+001B4B	b	h	0	WRAM	P1 MoveHit Total
+001200	b	b	0	WRAM	P1 state type: value 8 is attack. value 4 is block. value 3 is dash. value 2 is crouch. value 1 is jump
+001B4E	b	h	0	WRAM	P2 Block Range
+001295	w	s	0	WRAM	P1 Crosshairs Start
+001310	b	u	0	WRAM	
+001312	b	u	0	WRAM	
+001314	b	u	0	WRAM	
+001316	b	u	0	WRAM	
+001390	b	u	0	WRAM	
+001394	b	u	0	WRAM	
+001510	b	u	0	WRAM	
+001512	b	u	0	WRAM	
+001514	b	u	0	WRAM	
+001516	b	u	0	WRAM	P1 Crosshairs End
+001B30	w	s	0	WRAM	P1 Pos X?
+001B32	w	s	0	WRAM	P1 Pos Y?
+001B34	w	s	0	WRAM	P2 Pos X?
+001B36	w	s	0	WRAM	P2 Pos Y?
+001580	w	s	0	WRAM	P1 AnimElemTime
+001584	w	s	0	WRAM	P2 AnimElemTime
+001600	b	u	0	WRAM	P1 Attack ??
+001601	b	u	0	WRAM	P1 Attack ??
+001602	b	u	0	WRAM	P1 Damage
+001603	b	h	0	WRAM	P1 Hit Sound
+001604	b	u	0	WRAM	P2 Attack ??
+001605	b	s	0	WRAM	P2 Attack ??
+001606	b	u	0	WRAM	P2 Damage
+001607	b	u	0	WRAM	P2 Hit Sound
+001383	b	u	0	WRAM	P1 Flags 7th bit is facing (0 = left, 1 = right) . 6th bit invis. 5th? 4thInvis+shadow 3rdPlayer palette 2ndInvertPalette 1st?
+001387	b	b	0	WRAM	P2 Flags 7th bit is facing (0 = left, 1 = right) (52 is left, 116 is right) Surv
+00138B	b	u	0	WRAM	P1 Turning - Surv
+00138F	b	b	0	WRAM	P2 Turning - Surv
+000620	w	s	0	WRAM	Camera X
+000622	w	s	0	WRAM	Camera Y
+001101	b	u	0	WRAM	P1 Pos X (2-byte)
+001105	b	u	0	WRAM	P2 Pos X 
+000608	b	u	0	WRAM	
+000609	b	u	0	WRAM	
+001200	b	u	0	WRAM	1P State Type
+001201	b	u	0	WRAM	1P Movetype Flag (0 neutral, 1 hitstun or projectile launch, 2 invul but can be grabbed, 3 knockdown, 14 hit on death, 15 dead air, 10 dead bounce, 8 dead lying down) 
+001204	b	u	0	WRAM	2P State Type (0 stand, 1 jump, 2 crouch, 4 dash, 5 backdash, 8 stand block, 9 jump block, 10 cr block, 12 ground block dash, 13 back blockdash air, 26 stand block contact, 27 jump block contact, 28 cr block contact)
+001204	b	u	0	WRAM	2P State Type (128 stand attack, 129 jump attack, 130 crouch attack)
+001205	b	u	0	WRAM	2P Movetype Flag?
+0	S	_	1		
+001800	w	s	0	WRAM	1P X B-Box1 Start
+001802	w	s	0	WRAM	1P X B-Box1 Length
+001804	w	s	0	WRAM	2P X B-Box1 Start
+001806	w	s	0	WRAM	2P X B-Box1 Length
+001880	w	s	0	WRAM	1P Y B-Box1 Start
+001882	w	u	0	WRAM	1P Y B-Box1 Length
+001884	w	s	0	WRAM	2P Y B-Box1 Start
+001886	w	s	0	WRAM	2P Y B-Box1 Length
+001900	w	s	0	WRAM	1P X R-Box1 Start
+001902	w	s	0	WRAM	1P X R-Box1 Length
+001980	w	s	0	WRAM	1P Y R-Box1 Start
+001982	w	s	0	WRAM	1P Y R-Box1 Length
+001904	w	s	0	WRAM	2P X R-Box1 Start
+001906	w	s	0	WRAM	2P X R-Box1 Length
+001984	w	s	0	WRAM	2P Y R-Box1 Start
+001986	w	s	0	WRAM	2P Y R-Box1 Length
+001BC0	w	s	0	WRAM	1P X B-Box2 Offset
+001782	w	s	0	WRAM	1P X B-Box2 Length (-1 = off. longer value means forward from player)
+001BC2	w	s	0	WRAM	1P Y B-Box2 Offset (lower value = higher up)
+001BC8	w	s	0	WRAM	1P Y B-Box2 Length (higher means longer going down)
+001BC4	w	s	0	WRAM	2P X B-Box2 Offset
+001786	w	s	0	WRAM	2P X B-Box2 Length (-1 = off. longer value means forward from player)
+001BC6	w	s	0	WRAM	2P Y B-Box2 Offset (lower value = higher up)
+001BCC	w	s	0	WRAM	2P Y B-Box2 Length (higher means longer going down)
+001B00	b	u	0	WRAM	1P Vulcan Ready Flags (0 to disable, 12 to allow at all times)
+001B04	b	u	0	WRAM	2P Vulcan Ready Flags (0 to disable, 12 to allow at all times)
+001115	b	u	0	WRAM	1P Crosshair Coordinates?
+0	S	_	1		
+001940	w	s	0	WRAM	1P Proj1 X Box Offset
+001942	w	s	0	WRAM	1P Proj1 X Box Length
+001948	w	s	0	WRAM	1P Proj2 X Box Offset
+00194A	w	s	0	WRAM	1P Proj2 X Box Length
+001950	w	s	0	WRAM	1P Proj3 X Box Offset
+001952	w	s	0	WRAM	1P Proj3 X Box Length
+001958	w	s	0	WRAM	1P Proj4 X Box Offset
+00195A	w	s	0	WRAM	1P Proj4 X Box Length
+0019C0	w	s	0	WRAM	1P Proj1 Y Box Offset
+0019C2	w	s	0	WRAM	1P Proj1 Y Box Length
+0019C8	w	s	0	WRAM	1P Proj2 Y Box Offset
+0019CA	w	s	0	WRAM	1P Proj2 Y Box Length
+0019D0	w	s	0	WRAM	1P Proj3 Y Box Offset
+0019D2	w	s	0	WRAM	1P Proj3 Y Box Length
+0019D8	w	s	0	WRAM	1P Proj4 Y Box Offset
+0019DA	w	s	0	WRAM	1P Proj4 Y Box Length
+001141	w	s	0	WRAM	1P Proj1 X Pos
+001149	w	s	0	WRAM	1P Proj2 X Pos
+001151	w	s	0	WRAM	1P Proj3 X Pos
+001159	w	s	0	WRAM	1P Proj4 X Pos
+0011C1	w	s	0	WRAM	1P Proj1 Y Pos
+0011C9	w	s	0	WRAM	1P Proj2 Y Pos
+0011D1	w	s	0	WRAM	1P Proj3 Y Pos
+0011D9	w	s	0	WRAM	1P Proj4 Y Pos
+001944	w	s	0	WRAM	2P Proj1 X Box Offset
+001946	w	s	0	WRAM	2P Proj1 X Box Length
+00194C	w	s	0	WRAM	2P Proj2 X Box Offset
+00194E	w	s	0	WRAM	2P Proj2 X Box Length
+001954	w	s	0	WRAM	2P Proj3 X Box Offset
+001956	w	s	0	WRAM	2P Proj3 X Box Length
+00195C	w	s	0	WRAM	2P Proj4 X Box Offset
+00195E	w	s	0	WRAM	2P Proj4 X Box Length
+0019C4	w	s	0	WRAM	2P Proj1 Y Box Offset
+0019C6	w	s	0	WRAM	2P Proj1 Y Box Length
+0019CC	w	s	0	WRAM	2P Proj2 Y Box Offset
+0019CE	w	s	0	WRAM	2P Proj2 Y Box Length
+0019D4	w	s	0	WRAM	2P Proj3 Y Box Offset
+0019D6	w	s	0	WRAM	2P Proj3 Y Box Length
+0019DC	w	s	0	WRAM	2P Proj4 Y Box Offset
+0019DE	w	s	0	WRAM	2P Proj4 Y Box Length
+001145	w	s	0	WRAM	2P Proj1 X Pos
+00114D	w	s	0	WRAM	2P Proj2 X Pos
+001155	w	s	0	WRAM	2P Proj3 X Pos
+00115D	w	s	0	WRAM	2P Proj4 X Pos
+0011C5	w	s	0	WRAM	2P Proj1 Y Pos
+0011CD	w	s	0	WRAM	2P Proj2 Y Pos
+0011D5	w	s	0	WRAM	2P Proj3 Y Pos
+0011DD	w	s	0	WRAM	2P Proj4 Y Pos
+001020	b	h	0	WRAM	1P Vulcan1 Flag
+001028	b	h	0	WRAM	1P Vulcan2 Flag
+001030	b	h	0	WRAM	1P Vulcan3 Flag
+001038	b	h	0	WRAM	1P Vulcan4 Flag
+001040	b	h	0	WRAM	1P Projectile1 Flag 
+001048	b	h	0	WRAM	1P Projectile2 Flag 
+001050	b	h	0	WRAM	1P Projectile3 Flag 
+001058	b	h	0	WRAM	1P Projectile4 Flag 
+001024	b	h	0	WRAM	2P Vulcan1 Flag
+00102C	b	h	0	WRAM	2P Vulcan2 Flag
+001034	b	h	0	WRAM	2P Vulcan3 Flag
+00103C	b	h	0	WRAM	2P Vulcan4 Flag
+001044	b	h	0	WRAM	2P Projectile1 Flag 
+00104C	b	h	0	WRAM	2P Projectile2 Flag 
+001054	b	h	0	WRAM	2P Projectile3 Flag 
+00105C	b	h	0	WRAM	2P Projectile4 Flag 
+0013C3	b	u	0	WRAM	P1 Proj1 Facing
+0013CB	b	u	0	WRAM	P1 Proj2 Facing
+0013D3	b	u	0	WRAM	P1 Proj3 Facing
+0013DB	b	u	0	WRAM	P1 Proj4 Facing
+0013C3	b	b	0	WRAM	P1 Proj1 Flags (7th bit = facing)
+0013CA	b	b	0	WRAM	P1 Proj2 Flags (7th bit = facing)
+0013D3	b	b	0	WRAM	P1 Proj3 Flags (7th bit = facing)
+0013CA	b	b	0	WRAM	P1 Proj4 Flags (7th bit = facing)
+0013C7	b	b	0	WRAM	P2 Proj1 Flags (7th bit = facing)
+0013CE	b	b	0	WRAM	P2 Proj2 Flags (7th bit = facing)
+0013D7	b	b	0	WRAM	P2 Proj3 Flags (7th bit = facing)
+0013CE	b	b	0	WRAM	P2 Proj4 Flags (7th bit = facing)
+001171	w	s	0	WRAM	P1 Proj5? Y Pos
+0011F1	w	s	0	WRAM	P2 Proj5? Y Pos
+00113F	d	3	0	WRAM	
+001920	w	s	0	WRAM	1P Vulcan1 X Box Offset
+001922	w	s	0	WRAM	1P Vulcan1 X Box Length
+001928	w	s	0	WRAM	1P Vulcan2 X Box Offset
+00192A	w	s	0	WRAM	1P Vulcan2 X Box Length
+001930	w	s	0	WRAM	1P Vulcan3 X Box Offset
+001932	w	s	0	WRAM	1P Vulcan3 X Box Length
+001938	w	s	0	WRAM	1P Vulcan4 X Box Offset
+00193A	w	s	0	WRAM	1P Vulcan4 X Box Length
+0019A0	w	s	0	WRAM	1P Vulcan1 Y Box Offset
+0019A2	w	s	0	WRAM	1P Vulcan1 Y Box Length
+0019A8	w	s	0	WRAM	1P Vulcan2 Y Box Offset
+0019AA	w	s	0	WRAM	1P Vulcan2 Y Box Length
+0019B0	w	s	0	WRAM	1P Vulcan3 Y Box Offset
+0019B2	w	s	0	WRAM	1P Vulcan3 Y Box Length
+0019B8	w	s	0	WRAM	1P Vulcan4 Y Box Offset
+0019BA	w	s	0	WRAM	1P Vulcan4 Y Box Length
+001121	w	s	0	WRAM	1P Vulcan1 X Pos
+001129	w	s	0	WRAM	1P Vulcan2 X Pos
+001131	w	s	0	WRAM	1P Vulcan3 X Pos
+001139	w	s	0	WRAM	1P Vulcan4 X Pos
+0011A1	w	s	0	WRAM	1P Vulcan1 Y Pos
+0011A9	w	s	0	WRAM	1P Vulcan2 Y Pos
+0011B1	w	s	0	WRAM	1P Vulcan3 Y Pos
+0011B9	w	s	0	WRAM	1P Vulcan4 Y Pos
+001924	w	s	0	WRAM	2P Vulcan1 X Box Offset
+001926	w	s	0	WRAM	2P Vulcan1 X Box Length
+00192C	w	s	0	WRAM	2P Vulcan2 X Box Offset
+00192E	w	s	0	WRAM	2P Vulcan2 X Box Length
+001934	w	s	0	WRAM	2P Vulcan3 X Box Offset
+001936	w	s	0	WRAM	2P Vulcan3 X Box Length
+00193C	w	s	0	WRAM	2P Vulcan4 X Box Offset
+00193E	w	s	0	WRAM	2P Vulcan4 X Box Length
+0019A4	w	s	0	WRAM	2P Vulcan1 Y Box Offset
+0019A6	w	s	0	WRAM	2P Vulcan1 Y Box Length
+0019AC	w	s	0	WRAM	2P Vulcan2 Y Box Offset
+0019AE	w	s	0	WRAM	2P Vulcan2 Y Box Length
+0019B4	w	s	0	WRAM	2P Vulcan3 Y Box Offset
+0019B6	w	s	0	WRAM	2P Vulcan3 Y Box Length
+0019BC	w	s	0	WRAM	2P Vulcan4 Y Box Offset
+0019BE	w	s	0	WRAM	2P Vulcan4 Y Box Length
+001125	w	s	0	WRAM	2P Vulcan1 X Pos
+00112D	w	s	0	WRAM	2P Vulcan2 X Pos
+001135	w	s	0	WRAM	2P Vulcan3 X Pos
+00113D	w	s	0	WRAM	2P Vulcan4 X Pos
+0011A5	w	s	0	WRAM	2P Vulcan1 Y Pos
+0011AD	w	s	0	WRAM	2P Vulcan2 Y Pos
+0011B5	w	s	0	WRAM	2P Vulcan3 Y Pos
+0011BD	w	s	0	WRAM	2P Vulcan4 Y Pos
+001640	b	u	0	WRAM	1P Proj1 knockback
+001641	b	b	0	WRAM	1P Proj1 hitflags
+001642	b	u	0	WRAM	1P Projectile damage
+001643	b	u	0	WRAM	P1 Proj1 Hit Sounds. Bit 1 = Damage scaling.
+013C	b	h	0	CGRAM	Vulcan Reticle flicker 1
+013D	b	h	0	CGRAM	
+00014C	b	u	0	WRAM	Punch up high for darkness!
+001B74	d	2	0	WRAM	
+000010	b	h	0	WRAM	Set to 04 to disable lifebars
+000002	b	u	0	WRAM	Match state 
+00003A	b	u	0	WRAM	Related to music somehow
+00003B	b	h	0	WRAM	
+000038	b	h	0	WRAM	Music select.
+000180	b	h	0	WRAM	button presses
+000181	b	h	0	WRAM	
+00003B	b	h	0	WRAM	
+00003C	b	h	0	WRAM	
+00003D	b	h	0	WRAM	
+00003E	b	h	0	WRAM	
+00003F	b	h	0	WRAM	
+000038	b	h	0	WRAM	
+000039	b	h	0	WRAM	
+00003A	b	h	0	WRAM	
+00003B	b	h	0	WRAM	
+001283	w	s	0	WRAM	
+000680	b	h	0	WRAM	
+000520	b	u	0	WRAM	1P character?
+000524	b	u	0	WRAM	
+000516	b	h	0	WRAM	
+0004A0	w	s	0	WRAM	Weird value that is -1 when Epyon is picked on 1P
+00060E	b	u	0	WRAM	Maybe stage flag?
+000038	b	u	0	WRAM	
+000039	b	u	0	WRAM	
+00003A	b	u	0	WRAM	
+00003B	b	u	0	WRAM	
+000FE0	b	h	0	WRAM	
+000FE1	b	h	0	WRAM	
+001000	b	h	0	WRAM	1P Character Flag
+001004	b	h	0	WRAM	2P Character Flag
+001010	w	u	0	WRAM	1P Reticle display toggle.
+001008	b	u	0	WRAM	1P Reticle display 04 to enable
+0010A0	b	u	0	WRAM	Vulcan X movement binary toggle.
+000002	b	u	0	WRAM	Match State flag
+

@@ -13,7 +13,7 @@ Pending direct links & proper credit mentions
 
 - [Survivor](https://twitter.com/endless_duel)
 - [ComboKyo](https://github.com/ComboKyo)
-- Eric#8830 (Discord)
+- Eric#8830 (Discord) 
 - tobemorecrazy#4941 (Discord)
 - Zool#8679 (Discord) 
 - [Madman](https://twitter.com/Amedo310)
