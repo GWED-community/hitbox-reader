@@ -1,5 +1,13 @@
 memory.usememorydomain("WRAM")
 
+local function hpdisplay()
+	local HP1 = mainmemory.read_s16_le(0x1B71)
+	local HP2 = mainmemory.read_u8(0x1B75)
+	
+	gui.text( 40,  100, HP1 .. "/ 28784") 
+	gui.text( 420, 100, HP2 .. "/ 112") 
+
+end
 local function player()
 	
 	local p1bx1 = 56+mainmemory.read_s16_le(0x1800) 
@@ -47,6 +55,7 @@ local function player()
 end
 
 while true do
+	hpdisplay()
     player()
     emu.frameadvance()
 end
