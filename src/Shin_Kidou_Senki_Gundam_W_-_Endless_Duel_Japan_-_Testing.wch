@@ -1,0 +1,76 @@
+SystemID SNES
+001B71	b	u	0	WRAM	HP P1
+0000F2	b	u	0	WRAM	HP P1 - Possible float for rest of HP
+001B72	b	u	0	WRAM	HP P1 - gradual bar movement
+001B78	b	u	0	WRAM	HP P1 - gradual bar movement
+001B75	b	u	0	WRAM	HP P2
+001B76	b	u	0	WRAM	HP P2 - gradual bar movement
+001B7C	b	u	0	WRAM	HP P2 - gradual bar movement
+001BB4	b	u	0	WRAM	HP P2 - possible float for rest of HP
+000E8C	b	u	0	WRAM	P1 Crosshairs
+000E8F	b	u	0	WRAM	P2 Crosshairs
+001080	b	u	0	WRAM	
+001500	b	u	0	WRAM	
+001800	b	u	0	WRAM	
+001882	b	u	0	WRAM	
+001B4A	b	u	0	WRAM	P1 Attack Box?
+001B4B	b	u	0	WRAM	P1 Attack Box?
+001B28	b	h	0	WRAM	
+001B4B	b	h	0	WRAM	P1 Not Sure. Tied to attacks
+001B28	b	h	0	WRAM	P1 Attack State
+001880	b	h	0	WRAM	P1 CLSN2?
+001881	b	h	0	WRAM	P1 CLSN2
+001882	b	h	0	WRAM	P1 CLSN2
+001883	b	h	0	WRAM	P1 CLSN2?
+001600	b	h	0	WRAM	P1 CLSN1
+001601	b	h	0	WRAM	P1 CLSN1
+001602	b	h	0	WRAM	P1 Damage
+001603	b	h	0	WRAM	P1 Hit Flag
+001884	b	h	0	WRAM	P2 CLSN2?
+001885	b	h	0	WRAM	P2 CLSN2
+001886	b	h	0	WRAM	P2 CLSN2
+001887	b	h	0	WRAM	P2 CLSN2?
+001B4A	b	h	0	WRAM	P1 attack something
+001B4B	b	h	0	WRAM	
+001B28	b	h	0	WRAM	
+001400	b	s	0	WRAM	
+001800	b	s	0	WRAM	P1 X CLSN2
+001802	b	s	0	WRAM	P1 X CLSN2?
+001804	b	h	0	WRAM	P2 X CLSN2?
+001806	b	h	0	WRAM	P2 X CLSN2?
+001900	w	s	0	WRAM	P1 X CLSN1
+001902	w	s	0	WRAM	P1 X CLSN1
+001980	w	s	0	WRAM	P1 Y CLSN1
+001982	w	s	0	WRAM	P1 Y CLSN1
+001983	b	h	0	WRAM	
+001903	b	h	0	WRAM	
+001A14	b	h	0	WRAM	P2 Crosshair X
+001281	b	u	0	WRAM	P1 Vel X (Negative 255 down, Positive 0-127)
+001101	w	s	0	WRAM	P1 Pos X
+001105	w	s	0	WRAM	P2 Pos X
+001181	w	s	0	WRAM	P1 Pos Y
+001281	b	s	0	WRAM	P1 Vel X
+001283	b	s	0	WRAM	P1 Vel Y
+001282	w	s	0	WRAM	
+001B01	b	u	0	WRAM	P1 facing (0 for right, 64 for left)
+001B05	b	u	0	WRAM	
+001B4A	b	u	0	WRAM	P1 Block Range
+001B4B	b	h	0	WRAM	P1 MoveHit Total
+001200	b	u	0	WRAM	P1 state type
+001B4E	b	h	0	WRAM	P2 Block Range
+001295	b	u	0	WRAM	P1 Crosshairs Start
+001310	b	u	0	WRAM	
+001312	b	u	0	WRAM	
+001314	b	u	0	WRAM	
+001316	b	u	0	WRAM	
+001390	b	u	0	WRAM	
+001394	b	u	0	WRAM	
+001510	b	u	0	WRAM	
+001512	b	u	0	WRAM	
+001514	b	u	0	WRAM	
+001516	b	u	0	WRAM	P1 Crosshairs End
+001B30	w	s	0	WRAM	P1 Pos X?
+001B32	w	s	0	WRAM	P1 Pos Y?
+001B34	w	s	0	WRAM	P2 Pos X?
+001B36	w	s	0	WRAM	P2 Pos Y?
+
