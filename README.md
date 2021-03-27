@@ -11,12 +11,12 @@ Pending
 
 Pending direct links & proper credit mentions
 
-- [Survivor](https://twitter.com/endless_duel)
-- [ComboKyo](https://github.com/ComboKyo)
-- Eric#8830 (Discord) 
+- [ComboKyo](https://github.com/ComboKyo) - Major contributions to GW:ED hitbox-reader
+- [Survivor](https://twitter.com/endless_duel) - Major contributions to GW:ED hitbox-reader
+- Eric#8830 (Discord) - Beta Testing
 - tobemorecrazy#4941 (Discord)
 - Zool#8679 (Discord) 
-- [Madman](https://twitter.com/Amedo310)
+- [Madman](https://twitter.com/Amedo310) KOF Guide Contribution
 
 ## Resources/References
 
