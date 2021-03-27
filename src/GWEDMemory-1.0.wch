@@ -11,7 +11,8 @@ SystemID SNES
 000E8C	b	u	0	WRAM	P1 Crosshairs
 000E8F	b	u	0	WRAM	P2 Crosshairs
 001080	b	u	0	WRAM	
-001500	b	u	0	WRAM	P1 statetype?
+001500	b	u	0	WRAM	P1 State Number
+001504	b	u	0	WRAM	P2 State Number
 001800	b	u	0	WRAM	
 001882	b	u	0	WRAM	
 001B4A	b	u	0	WRAM	P1 Attack Box?
@@ -69,7 +70,6 @@ SystemID SNES
 001B34	w	s	0	WRAM	P2 Pos X?
 001B36	w	s	0	WRAM	P2 Pos Y?
 001782	w	s	0	WRAM	P1 Mystery Box! -1 if off. a value if two boxes are present!
-001786	w	s	0	WRAM	P2 Mystery Box?
 001580	w	s	0	WRAM	P1 AnimElemTime
 001584	w	s	0	WRAM	P2 AnimElemTime
 001600	b	u	0	WRAM	P1 Attack ??
@@ -95,4 +95,8 @@ SystemID SNES
 001201	b	u	0	WRAM	P2 Movetype Flag 2 = Invul
 001205	b	u	0	WRAM	P2 Movetype Flag?
 001788	w	s	0	WRAM	P2 Mystery Box?
+001BC4	b	u	0	WRAM	P2 Mystery Box? Might be X offset.
+001786	w	s	0	WRAM	P2 X Mystery  Length (longer value means forward from player)
+001BC6	b	u	0	WRAM	P2 Y Mystery Offset (lower value = higher up)
+001BCC	b	u	0	WRAM	P2 Y Mystery Length (higher means longer going down)
 
