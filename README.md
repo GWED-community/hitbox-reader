@@ -2,11 +2,12 @@
 
 ## About
 
-Everything according to frame data and hit boxes for the game, Gundam Wing Endless Duel. 
+Everything according to frame data and hit boxes for the game, Gundam Wing Endless Duel.
 
 ## How to use this
 
-Pending
+- Download the latest version of [Bizhawk](https://github.com/TASVideos/BizHawk/releases/)
+- Download the latest version of [TheZEROSystem](./TheZEROSystem-0.610.lua)
 ## Credits
 
 Pending direct links & proper credit mentions
@@ -15,7 +16,7 @@ Pending direct links & proper credit mentions
 - [Survivor](https://twitter.com/endless_duel) - Major contributions to GW:ED hitbox-reader
 - Eric#8830 (Discord) - Beta Testing
 - tobemorecrazy#4941 (Discord)
-- Zool#8679 (Discord) 
+- Zool#8679 (Discord)
 - [Madman](https://twitter.com/Amedo310) KOF Guide Contribution
 
 ## Resources/References
