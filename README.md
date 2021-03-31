@@ -7,7 +7,7 @@ Everything according to frame data and hit boxes for the game, Gundam Wing Endle
 ## How to use this
 
 - Download the latest version of [Bizhawk](https://github.com/TASVideos/BizHawk/releases/)
-- Download the latest version of [TheZEROSystem](./TheZEROSystem-0.610.lua)
+- Download the latest version of [TheZEROSystem](https://github.com/GWED-community/hitbox-reader/releases/tag/0.610)
 ## Credits
 
 Pending direct links & proper credit mentions
